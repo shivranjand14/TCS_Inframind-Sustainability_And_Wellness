@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_data">
+
+
+
+
+
+
+
+        <!--  <include layout="@layout/toolbar_login2" />-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                android:paddingBottom="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/myreport" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Health Report"
+                        android:textColor="#34353d"
+                        android:textSize="24.3dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Please enter your details ..!"
+                    android:textColor="#5f6271"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40.3dp"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40.3dp"
+                    android:hint="Enter Name"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40.3dp"
+                    android:hint="Body Temprature(Normal:97°F to 99°F)"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/bodytemprature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40.3dp"
+                    android:hint="Blood pressure (Normal: Below 120)"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+                <EditText
+                    android:id="@+id/bloodpressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40.3dp"
+                    android:hint="Respiratory(Normal:12 to 16 Rate in breaths per minute)"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/respiratoryrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint="Glucose(Normal:less than 140 mg/dL)"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/glucose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:inputType="text"
+                    android:ems="20"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint="Heart Rate(Normal:60 to 100 beats per minute.)"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/heartrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:inputType="text"
+                    android:ems="20"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45.81dp"
+                    android:hint="Oxygen Saturation(Normal:95 and 100 percent.)"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/oxygensaturation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45.81dp"
+                    android:hint="Electro Cardiogram(Normal:120 – 200 ms )"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/electrocardiogram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45.81dp"
+                    android:hint="Blood Sugar(Normal:less than 140 mg/dL)"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/bloodsugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:ems="20"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45.4dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!--
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Spinner
+                            android:id="@+id/sp_car_name2"
+                            android:layout_width="55dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/custom_spinner"
+                            android:spinnerMode="dropdown"
+                            />
+
+                        <EditText
+                            android:layout_width="55dp"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="#e0e0e0" />
+
+                    </LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="55.7dp"
+                android:layout_margin="9dp"
+                android:background="@drawable/sign_up"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
